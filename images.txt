@@ -1,1 +1,1 @@
-adoptium:17
+azul/zulu-openjdk:17-jre-latest
