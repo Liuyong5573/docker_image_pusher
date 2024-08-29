@@ -1,1 +1,1 @@
-adoptium/openjdk:17-jdk
+adoptium:17
