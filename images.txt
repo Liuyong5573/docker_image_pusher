@@ -1,1 +1,1 @@
-tjqq/powerjob-server:4.3.9
+adoptium/openjdk:17-jdk
