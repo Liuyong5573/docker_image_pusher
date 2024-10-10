@@ -1,1 +1,1 @@
-eclipse-temurin:17.0.12_7-jre-jammy
+powerjob/powerjob-server:5.1.0
