@@ -1,1 +1,1 @@
-rancher/mirrored-library-traefik:3.5.1
+registry.cn-hangzhou.aliyuncs.com/rancher
