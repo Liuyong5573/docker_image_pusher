@@ -1,1 +1,1 @@
-registry.k8s.io/ingress-nginx/controller:v1.14.0
+rancher/mirrored-library-traefik:3.5.1
