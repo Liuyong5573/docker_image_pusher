@@ -1,1 +1,1 @@
-registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.4
+powerjob/powerjob-server:5.1.0
