@@ -1,1 +1,1 @@
-timberio/vector:0.46.1-alpine
+victoriametrics/victoria-logs:v1.41.0-victorialogs
