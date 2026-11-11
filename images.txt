@@ -1,1 +1,1 @@
-victoriametrics/victoria-logs:v1.41.0-victorialogs
+victoriametrics/victoria-logs:v1.41.1
