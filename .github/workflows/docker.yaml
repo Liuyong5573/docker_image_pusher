@@ -7,7 +7,7 @@ on:
 
 
 env:
-  ALIYUN_REGISTRY: "registry.cn-hangzhou.aliyuncs.com/bjbc/victoria-logs"
+  ALIYUN_REGISTRY: "registry.cn-hangzhou.aliyuncs.com/bjbc/grafana"
   ALIYUN_NAME_SPACE: "${{ secrets.ALIYUN_NAME_SPACE }}"
   ALIYUN_REGISTRY_USER: "${{ secrets.ALIYUN_REGISTRY_USER }}"
   ALIYUN_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"
@@ -143,7 +143,7 @@ jobs:
             
             # 将@sha256:等字符删除
             image_name_tag="${image_name_tag%%@*}"
-            new_image="$ALIYUN_REGISTRY:v1.49.0"
+            new_image="$ALIYUN_REGISTRY:$image_tag"
             echo "docker tag $image $new_image"
             docker tag $image $new_image
             echo "docker push $new_image"
