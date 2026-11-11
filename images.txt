@@ -1,1 +1,1 @@
-victoriametrics/victoria-logs:v1.49.0
+grafana/grafana-oss:13.2.0
